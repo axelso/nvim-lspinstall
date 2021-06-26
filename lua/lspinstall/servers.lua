@@ -1,5 +1,6 @@
 local servers = {
   ["angular"] = require'lspinstall/servers/angular',
+  ["azure_pipelines"] = require'lspinstall/servers/azure_pipelines',
   ["bash"] = require'lspinstall/servers/bash',
   ["clojure"] = require'lspinstall/servers/clojure',
   ["cmake"] = require'lspinstall/servers/cmake',
