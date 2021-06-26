@@ -1,7 +1,7 @@
 local config = require"lspinstall/util".extract_config("azure_pipelines_ls")
-config.default_config.cmd[0] = "node"
-config.default_config.cmd[1] = "./node_modules/azure-pipelines-language-server/out/server.js"
-config.default_config.cmd[2] = "--stdio"
+-- config.default_config.cmd[0] = "node"
+config.default_config.cmd[1] = "./node_modules/.bin/azure-pipelines-language-server"
+-- config.default_config.cmd[2] = "--stdio"
 
 return vim.tbl_extend('error', config, {
   install_script = [[
