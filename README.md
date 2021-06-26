@@ -1,3 +1,5 @@
+Forked from [kabouzeid/nvim-lspinstall](https://github.com/kabouzeid/nvim-lspinstall) to play a little bit with the repo
+
 ![logo](/logo.png)
 
 ## About
