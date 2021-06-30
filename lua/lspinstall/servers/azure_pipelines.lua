@@ -24,7 +24,7 @@ return {
   yarn add azure-pipelines-language-server@latest
   ]],
   default_config = {
-    cmd = { "node", ".node_modules/azure-pipelines-language-server/out/server.js", "--stdio" },
+    cmd = { "node", "./node_modules/azure-pipelines-language-server/out/server.js", "--stdio" },
     filetypes = { 'yaml' },
     root_dir = require'lspconfig'.util.root_pattern(".git", vim.fn.getcwd()),
     init_options = {
